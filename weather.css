@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-image:url(default.jpg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#condtion{
+    display:flex;
+    flex-direction:row;
+}
+
+#searchbox {
+    display: flex;
+    justify-content: space-between;
+    
+     
+}
+
+#icon {
+    width:20px; /* Adjust the size of the image */
+    height: 20px;
+    
+    
+} 
+#search{
+     place-items: center;
+    
+}
+
+
+#textbox {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    background:white;
+    
+}
+
+#searchbtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background: #0056b3;
+}
+#displaybox{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+    width:400px;
+    height:200px;
+    margin: auto 20% 20% 20%; /* Center the container on the page */
+    background: #e4dabb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding:0;
+}
+h1{
+   background:white;
+}
+#enterbox{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+    width: 400px;
+    height:300px;
+    margin: 20%; /* Center the container on the page */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+#totalbox{
+    display:flex;
+    flex-direction: column;
+    place-items:center;
+}
+#searchbar{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    justify-content:space-around;
+    align-items: center;
+    width:350px;
+}
+h2{
+    background:#e4dabb;
+    font-family:math;
+
+}
+p{
+    background:#e4dabb;
+    font-family:math;
+
+}
